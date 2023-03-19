@@ -1,0 +1,153 @@
+ERROR - 2023-03-18 03:11:23 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /opt/lampp/htdocs/leonel/system/Database/MySQLi/Connection.php:174
+Stack trace:
+#0 /opt/lampp/htdocs/leonel/system/Database/MySQLi/Connection.php(174): mysqli->real_connect()
+#1 /opt/lampp/htdocs/leonel/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /opt/lampp/htdocs/leonel/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 /opt/lampp/htdocs/leonel/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/lampp/htdocs/leonel/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/htdocs/leonel/system/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+#6 /opt/lampp/htdocs/leonel/app/Controllers/CustomerController.php(26): CodeIgniter\BaseModel->findAll()
+#7 /opt/lampp/htdocs/leonel/system/CodeIgniter.php(934): App\Controllers\CustomerController->test()
+#8 /opt/lampp/htdocs/leonel/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#9 /opt/lampp/htdocs/leonel/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#10 /opt/lampp/htdocs/leonel/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 /opt/lampp/htdocs/leonel/system/Commands/Server/rewrite.php(47): require_once('...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /opt/lampp/htdocs/leonel/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /opt/lampp/htdocs/leonel/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /opt/lampp/htdocs/leonel/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 /opt/lampp/htdocs/leonel/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /opt/lampp/htdocs/leonel/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 /opt/lampp/htdocs/leonel/system/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+#5 /opt/lampp/htdocs/leonel/app/Controllers/CustomerController.php(26): CodeIgniter\BaseModel->findAll()
+#6 /opt/lampp/htdocs/leonel/system/CodeIgniter.php(934): App\Controllers\CustomerController->test()
+#7 /opt/lampp/htdocs/leonel/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /opt/lampp/htdocs/leonel/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /opt/lampp/htdocs/leonel/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /opt/lampp/htdocs/leonel/system/Commands/Server/rewrite.php(47): require_once('...')
+#11 {main}
+CRITICAL - 2023-03-18 03:11:23 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+ 5 APPPATH/Controllers/CustomerController.php(26): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CustomerController->test()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/opt/lampp/htdocs/leonel/public/index.php')
+CRITICAL - 2023-03-18 20:53:47 --> Class "CodeIgnite\Controller" not found
+in APPPATH/Controllers/LoginController.php on line 6.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(312): include_once()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 5 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 6 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/opt/lampp/htdocs/leonel/public/index.php')
+CRITICAL - 2023-03-18 20:54:16 --> Class "CodeIgnite\Controller" not found
+in APPPATH/Controllers/LoginController.php on line 6.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(312): include_once()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 5 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 6 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/opt/lampp/htdocs/leonel/public/index.php')
+CRITICAL - 2023-03-18 20:55:47 --> Class "CodeIgnite\Controller" not found
+in APPPATH/Controllers/LoginController.php on line 6.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(312): include_once()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 5 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 6 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/opt/lampp/htdocs/leonel/public/index.php')
+CRITICAL - 2023-03-18 20:55:49 --> Class "CodeIgnite\Controller" not found
+in APPPATH/Controllers/LoginController.php on line 6.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(312): include_once()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 5 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 6 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/opt/lampp/htdocs/leonel/public/index.php')
+CRITICAL - 2023-03-18 20:57:46 --> Class "CodeIgnite\Controller" not found
+in APPPATH/Controllers/LoginController.php on line 6.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(312): include_once()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 5 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 6 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/opt/lampp/htdocs/leonel/public/index.php')
+CRITICAL - 2023-03-18 20:58:08 --> Class "CodeIgnite\Controller" not found
+in APPPATH/Controllers/LoginController.php on line 6.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(312): include_once()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 5 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 6 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/opt/lampp/htdocs/leonel/public/index.php')
+CRITICAL - 2023-03-18 20:59:44 --> Class "CodeIgnite\Controller" not found
+in APPPATH/Controllers/LoginController.php on line 6.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(312): include_once()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 5 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 6 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/opt/lampp/htdocs/leonel/public/index.php')
+CRITICAL - 2023-03-18 20:59:45 --> Class "CodeIgnite\Controller" not found
+in APPPATH/Controllers/LoginController.php on line 6.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(312): include_once()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 5 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 6 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/opt/lampp/htdocs/leonel/public/index.php')
+CRITICAL - 2023-03-18 21:00:01 --> Class "CodeIgnite\Controller" not found
+in APPPATH/Controllers/LoginController.php on line 6.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(312): include_once()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 5 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 6 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/opt/lampp/htdocs/leonel/public/index.php')
+CRITICAL - 2023-03-18 21:02:14 --> Class "CodeIgnite\Controller" not found
+in APPPATH/Controllers/LoginController.php on line 6.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(312): include_once()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 5 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 6 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/opt/lampp/htdocs/leonel/public/index.php')

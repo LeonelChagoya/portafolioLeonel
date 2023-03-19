@@ -1,0 +1,135 @@
+CRITICAL - 2023-03-12 00:00:56 --> Call to a member function findAll() on null
+in APPPATH/Controllers/CustomerController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CustomerController->test()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/hugo/diskExter1/pyoyectosCodeignater/CodeIgniter4/public/index.php')
+CRITICAL - 2023-03-12 00:01:09 --> Call to a member function findAll() on null
+in APPPATH/Controllers/CustomerController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CustomerController->test()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/hugo/diskExter1/pyoyectosCodeignater/CodeIgniter4/public/index.php')
+CRITICAL - 2023-03-12 00:01:30 --> Call to a member function findAll() on null
+in APPPATH/Controllers/CustomerController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CustomerController->test()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/hugo/diskExter1/pyoyectosCodeignater/CodeIgniter4/public/index.php')
+CRITICAL - 2023-03-12 00:01:37 --> Call to a member function findAll() on null
+in APPPATH/Controllers/CustomerController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CustomerController->test()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/hugo/diskExter1/pyoyectosCodeignater/CodeIgniter4/public/index.php')
+CRITICAL - 2023-03-12 00:01:41 --> Call to a member function findAll() on null
+in APPPATH/Controllers/CustomerController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CustomerController->test()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/hugo/diskExter1/pyoyectosCodeignater/CodeIgniter4/public/index.php')
+CRITICAL - 2023-03-12 00:03:30 --> Call to a member function findAll() on null
+in APPPATH/Controllers/CustomerController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CustomerController->test()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/hugo/diskExter1/pyoyectosCodeignater/CodeIgniter4/public/index.php')
+CRITICAL - 2023-03-12 00:07:11 --> Call to a member function findAll() on null
+in APPPATH/Controllers/CustomerController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CustomerController->test()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/hugo/diskExter1/pyoyectosCodeignater/CodeIgniter4/public/index.php')
+CRITICAL - 2023-03-12 00:07:14 --> Call to a member function findAll() on null
+in APPPATH/Controllers/CustomerController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CustomerController->test()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/hugo/diskExter1/pyoyectosCodeignater/CodeIgniter4/public/index.php')
+CRITICAL - 2023-03-12 00:07:18 --> Call to a member function findAll() on null
+in APPPATH/Controllers/CustomerController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CustomerController->test()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/hugo/diskExter1/pyoyectosCodeignater/CodeIgniter4/public/index.php')
+CRITICAL - 2023-03-12 00:07:24 --> Call to a member function findAll() on null
+in APPPATH/Controllers/CustomerController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CustomerController->test()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/hugo/diskExter1/pyoyectosCodeignater/CodeIgniter4/public/index.php')
+CRITICAL - 2023-03-12 00:49:36 --> Class "Congig\Services" not found
+in APPPATH/Controllers/CustomerController.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(906): App\Controllers\CustomerController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/hugo/diskExter1/pyoyectosCodeignater/CodeIgniter4/public/index.php')
+CRITICAL - 2023-03-12 00:52:44 --> Class "Congig\Services" not found
+in APPPATH/Controllers/CustomerController.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(906): App\Controllers\CustomerController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/hugo/diskExter1/pyoyectosCodeignater/CodeIgniter4/public/index.php')
+CRITICAL - 2023-03-12 00:53:30 --> Class "Congig\Services" not found
+in APPPATH/Controllers/CustomerController.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(906): App\Controllers\CustomerController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/hugo/diskExter1/pyoyectosCodeignater/CodeIgniter4/public/index.php')
+CRITICAL - 2023-03-12 00:54:36 --> Class "Congig\Services" not found
+in APPPATH/Controllers/CustomerController.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(906): App\Controllers\CustomerController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/hugo/diskExter1/pyoyectosCodeignater/CodeIgniter4/public/index.php')
+CRITICAL - 2023-03-12 00:54:39 --> Class "Congig\Services" not found
+in APPPATH/Controllers/CustomerController.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(906): App\Controllers\CustomerController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/hugo/diskExter1/pyoyectosCodeignater/CodeIgniter4/public/index.php')
+CRITICAL - 2023-03-12 00:55:15 --> Class "Congig\Services" not found
+in APPPATH/Controllers/CustomerController.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(906): App\Controllers\CustomerController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/hugo/diskExter1/pyoyectosCodeignater/CodeIgniter4/public/index.php')
+CRITICAL - 2023-03-12 00:56:53 --> Class "Congig\Services" not found
+in APPPATH/Controllers/CustomerController.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(906): App\Controllers\CustomerController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/hugo/diskExter1/pyoyectosCodeignater/CodeIgniter4/public/index.php')
+ERROR - 2023-03-12 00:59:27 --> mysqli_sql_exception: Duplicate entry '0' for key 'customer.PRIMARY' in /media/hugo/diskExter1/pyoyectosCodeignater/CodeIgniter4/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /media/hugo/diskExter1/pyoyectosCodeignater/CodeIgniter4/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /media/hugo/diskExter1/pyoyectosCodeignater/CodeIgniter4/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/hugo/diskExter1/pyoyectosCodeignater/CodeIgniter4/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/hugo/diskExter1/pyoyectosCodeignater/CodeIgniter4/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /media/hugo/diskExter1/pyoyectosCodeignater/CodeIgniter4/system/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 /media/hugo/diskExter1/pyoyectosCodeignater/CodeIgniter4/system/BaseModel.php(782): CodeIgniter\Model->doInsert()
+#6 /media/hugo/diskExter1/pyoyectosCodeignater/CodeIgniter4/system/Model.php(730): CodeIgniter\BaseModel->insert()
+#7 /media/hugo/diskExter1/pyoyectosCodeignater/CodeIgniter4/app/Controllers/CustomerController.php(38): CodeIgniter\Model->insert()
+#8 /media/hugo/diskExter1/pyoyectosCodeignater/CodeIgniter4/system/CodeIgniter.php(934): App\Controllers\CustomerController->create()
+#9 /media/hugo/diskExter1/pyoyectosCodeignater/CodeIgniter4/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#10 /media/hugo/diskExter1/pyoyectosCodeignater/CodeIgniter4/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#11 /media/hugo/diskExter1/pyoyectosCodeignater/CodeIgniter4/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 /media/hugo/diskExter1/pyoyectosCodeignater/CodeIgniter4/system/Commands/Server/rewrite.php(47): require_once('...')
+#13 {main}
