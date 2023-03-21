@@ -1,7 +1,15 @@
-<nav id ="nav" class="navbar navbar-expand-lg bg-body-tertiary">
+
+<nav   class="navbar navbar-expand-lg bg-body-tertiary navLeo fixed-top">
     <div class="container-fluid">
-        <a class="navbar-brand" href="/"><?php echo session('usuario'); ?></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <button  type="button"  id="sidebarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="/">
+            <!-- toma el nombre del usuario -->
+            <?php echo session('usuario'); ?>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -16,7 +24,6 @@
                     <a class="nav-link" href="/login">login</a>
                 </li>
             </ul>
-
         </div>
     </div>
 </nav>

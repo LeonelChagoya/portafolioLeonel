@@ -13,7 +13,7 @@
 <?php require("components/nav.php");?>
 <!-- components react -->
   <!-- components react-->
-<div id="main-login"></div>
+  <div id="main-login"></div>
 <!---->
 <script src="/dist/Login/index.js" charset="utf-8"></script>
 
